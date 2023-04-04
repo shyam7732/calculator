@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #23283b;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #131313;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 35px;
+    border-radius: 10px;
+  }
+  
+  #Display-area {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 20px;
+    border: 2px rgba(128, 128, 128, 0.116) solid;
+    overflow: hidden;
+  }
+  
+  #Display-area .currentInput {
+    text-align: right;
+    font-size: 20px;
+    color: rgba(150, 150, 150, 0.87);
+    line-height: 3;
+  }
+  
+  #Display-area .answerScreen {
+    text-align: right;
+    color: rgba(150, 150, 150, 0.87);
+    height: 7px;
+    line-height: 3;
+    font-size: 20px;
+  }
+  
+  .keypad-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+  }
+  
+  .keypad-btns button {
+    width: 4.3rem;
+    height: 4.3rem;
+    margin: 5px;
+    background-color: #232534;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 2.1rem;
+  }
+  
+  .keypad-btns .fun_btn {
+    color: #000;
+    background: #00E6F6;
+    font-weight: bold;
+  }
+  
+  .num_btn:hover {
+    background-color: #282a3a;
+  }
+  
+  .fun_btn:hover {
+    background-color: #00c6d4;
+  }
