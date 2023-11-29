@@ -5,13 +5,13 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  body {
+  /* body {
     background-color: #23283b;
     min-height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   .wrepper {
     height: 100vh;
@@ -50,13 +50,13 @@
     line-height: 3;
   }
   
-  #Display-area .answerScreen {
+  /* #Display-area .answerScreen {
     text-align: right;
     color: rgba(150, 150, 150, 0.87);
     height: 7px;
     line-height: 3;
     font-size: 20px;
-  }
+  } */
   
   .keypad-btns {
     display: flex;
